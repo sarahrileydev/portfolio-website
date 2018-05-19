@@ -5,25 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <title>Sarah Riley</title>
-    <script>
-        window.onscroll = function () { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("myBtn").style.display = "block";
-            } else {
-                document.getElementById("myBtn").style.display = "none";
-            }
-        }
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -67,11 +54,8 @@
                 <div class="logo"></div>
             </div>
         </header>
-        <div class="main-empty"></div>
-        <div class="first-tab-parent">
-            <div class="first-tab">
-                <a href="#work">My Work</a>
-            </div>
+        <div class="first-tab">
+            <a href="#work">My Work</a>
         </div>
     </div>
 
@@ -83,18 +67,22 @@
         <div class="middle-content">
             <div class="project-tiles">
                 <div class="project-1">
-                    <a href="nothing" target="_blank">
-                        <div id="project-1-link"> <p>Current Project: Election Map</p></div>
+                    <a href="http://sarahrileyclock.s3-website.us-east-2.amazonaws.com" target="_blank">
+                        <div id="project-1-link">
+                             <p>Outdoor Clock 
+                                <br> using Javascript</p>
+                        </div>
                     </a>
                 </div>
                 <div class="project-2">
-                    <a href="nothing" target="_blank">
-                        <div id="project-2-link"> Coming Soon</div>
+                    <a href="http://sarahrileymagic8ball.s3-website.us-east-2.amazonaws.com" target="_blank">
+                        <div id="project-2-link">Magic 8 Ball <br>using Javascript <br>and Jquery</div>
                     </a>
                 </div>
                 <div class="project-3">
                     <a href="nothing" target="_blank">
-                        <div id="project-3-link">Coming Soon</div>
+                        <div id="project-3-link"><p>Current Project: Election Map
+                           </p></div>
                     </a>
                 </div>
                 <div class="project-4">
@@ -129,7 +117,7 @@
                 </div>
             </div>
             <div class="round-image">
-                <img id="circle-pic" src="img/circle-pic.png" alt="sarah working on laptop" />
+                <img id="circle-pic" src="img/circle-pic.jpg" alt="sarah working on laptop" />
             </div>
         </div>
         <div class="second-tab-parent">
@@ -196,8 +184,6 @@
         <footer>
             <p>All content created by Sarah Riley &copy 2018</p>
         </footer>
-    </div>
-
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
