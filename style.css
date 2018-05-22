@@ -138,6 +138,12 @@ p {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+a div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #project-1-link {
     background-color: #db9704;
     color: white;
@@ -150,12 +156,6 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     font: 0/0 a;
-}
-
-.project-1 a div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #project-2-link {
@@ -172,12 +172,6 @@ p {
     font: 0/0 a;
 }
 
-.project-2 a div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #project-3-link {
     background-color: #db9704;
     color: white;
@@ -192,10 +186,18 @@ p {
     font: 0/0 a;
 }
 
-.project-3 a div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#project-4-link {
+    background-color: #db9704;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+#project-4-link:hover {
+    background-image: url('img/table-picker-app.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font: 0/0 a;
 }
 
 .second-tab {
