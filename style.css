@@ -126,6 +126,7 @@ header {
   width: 175px;
   height: 150px;
   border: solid 2px #db9704;
+  border-radius: 3px;
 }
 
 .middle-header h2 {
@@ -194,12 +195,25 @@ a div {
 }
 
 #project-4-link:hover {
-    background-image: url('img/table-picker-app.jpg');
+    background-image: url('img/natours-cover.PNG');
     background-size: cover;
     background-repeat: no-repeat;
     font: 0/0 a;
 }
 
+#project-5-link {
+  background-color: #db9704;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+#project-5-link:hover {
+  background-image: url('img/trillo-cover.PNG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font: 0/0 a;
+}
 .second-tab {
   color: #db9704;
   font-family: 'Roboto Condensed', sans-serif;
