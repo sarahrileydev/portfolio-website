@@ -17,6 +17,14 @@ nav {
   list-style-type: none;
 }
 
+@media only screen and (max-width: 1000px) {
+  .links-header {
+    width: 100%;
+    align-items: flex-end;
+    padding-right: 20px;
+  }
+}
+
 .links-header li {
   padding: 20px 30px 1px 0px;
 }
@@ -25,6 +33,13 @@ nav {
   display: flex;
   justify-content: flex-start;
   list-style-type: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+  .social-header {
+    display: none;
+  }
 }
 .social-header li {
   padding: 20px 5px 10px 20px;
@@ -61,6 +76,12 @@ header {
   background-size: cover;
   background-position: bottom right;
   position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+  .top {
+    background-position: center;
+  }
 }
 
 .name {
@@ -120,6 +141,12 @@ header {
 
 #circle-pic {
   height: 500px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #circle-pic {
+    display: none;
+  }
 }
 
 .project-tiles>div>a>div {
@@ -245,6 +272,13 @@ a div {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+@media only screen and (max-width: 1000px) {
+  .bottom-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .about {
