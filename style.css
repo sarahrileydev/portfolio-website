@@ -247,7 +247,7 @@ a div {
 }
 
 #project-4-link:hover {
-    background-image: url('img/natours-cover.PNG');
+    background-image: url('img/natours-cover.png');
     background-size: cover;
     background-repeat: no-repeat;
     font: 0/0 a;
@@ -261,7 +261,7 @@ a div {
 }
 
 #project-5-link:hover {
-  background-image: url('img/trillo-cover.PNG');
+  background-image: url('img/trillo-cover.png');
   background-size: cover;
   background-repeat: no-repeat;
   font: 0/0 a;
